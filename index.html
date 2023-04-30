@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Home
+    </title>
+    <style>
+        li {
+            display: inline;
+        }
+
+        .detailss {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .header1 {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #2b2b2b;
+            border: 2px solid red;
+
+        }
+
+        .header1 {
+            display: block;
+            color: white;
+            text-align: right;
+            padding: 1px 1px;
+            text-decoration: none;
+
+        }
+
+        li a:hover {
+            color: red;
+
+        }
+
+        .header2 {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+
+        }
+
+        li a {
+            display: block;
+            color: gray;
+            text-align: center;
+            padding: 13px 15px;
+            text-decoration: none;
+        }
+
+        li a {
+            float: left;
+        }
+
+
+
+        .footer {
+            background-color: rgb(45, 44, 44);
+        }
+
+        td {
+            padding: 10px 100px 1px 0px;
+            color: dimgrey;
+            overflow: hidden;
+            list-style-type: none;
+
+        }
+
+        th {
+            padding: 10px 100px 10px 0px;
+            font-weight: bold;
+            color: aliceblue;
+        }
+
+        td {
+            text-decoration: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a:hover,
+        a:focus {
+            text-decoration: none;
+            color: inherit;
+            outline: none;
+        }
+
+        a:visited {
+            color: inherit;
+        }
+
+
+
+
+
+        .input {
+            color: red;
+
+
+        }
+
+        .ftable {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link rel="stylesheet" href="style.css" />
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header1" id="mainnavibar" style="padding-left: 250px;">
+            <ul class="header1.1">
+                <li><a href="https://www.toyota.lk/about-us/">About Us</a> </li>
+                <li><a href="https://www.toyota.lk/sustainability/">Sustainability</a> </li>
+                <li> <a href="https://www.toyota.lk/news/">News Room</a></li>
+                <li><a href="https://www.toyota.lk/careers/">Careers</a></li>
+                <li><a href="https://www.toyota.lk/book-a-service/">Book A Service</a></li>
+                <li> <a href="https://www.toyota.lk/contact/">Contacts</a></li>
+                <li><a href="https://payments.toyota.lk/">Online Payment</a></li>
+                </li>
+                <li><a href="login.html">Suppliers</a></li>
+                </li>
+                <li><a href="http://ease.toyota.lk/">EASE</a></li>
+                </li>
+                <li><a href="https://www.toyota.lk/promotions/">Promotions</a></li>
+                </li>
+
+
+            </ul>
+
+        </div>
+        <div class="header2" id="secondnavibar">
+            <ul>
+                <li><img src="lets go places 2.jpg" alt="letsgo" width="220px" height="50px"> </li>
+                <li><a class="active" href="">VEHICLES </a> </li>
+                <li><a class="active" href="https://www.toyota.lk/spare-parts/">SPARE PARTS</a></li>
+                <li><a class="active" href="https://www.toyota.lk/services/">SERVICES</a></li>
+                <li><a class="active" href="https://www.toyota.lk/material-handling/">MATEIAL HANDLING</a></li>
+                <li><a class="active" href="https://www.toyotasure.lk/">TOYOTA SURE</a></li>
+                <li><a class="active" href="https://www.toyota.lk/promotions/">PROMOTIONS</a></li>
+                <li><img src="toyota lanka 2.jpg" alt="tlanka" width="220px" height="50px"></li>
+
+            </ul>
+
+
+
+        </div>
+
+    </header>
+
+
+
+    </div>
+    <div class="container">
+        <div class="slides">
+            <div class="slide">
+                <img src="img/slide-1.jpg" alt="" />
+                <div class="slide-content" style="color: crimson;">
+                    <h3>Need your toyota sell fast? Bring it to us.</h3>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/slide-2.jpg" alt="" />
+            </div>
+
+            <div class="slide">
+                <img src="img/slide-3.jpg" alt="" />
+            </div>
+            <div class="slide">
+                <img src="img/slide-4.jpg" alt="" />
+            </div>
+        </div>
+        <div class="slide-controls">
+            <button id="prev-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button id="next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <div class="detailss">
+        <div class="vehirange" id="v.r">
+            <h2> VEHICLE RANGE </h2><br>
+            <li style="padding-right: 100px;"><img src="passenger.png" alt="pc" width="60px" height="40px"> </li>
+            <li style="padding-right: 150px;"><img src="sports.png" alt="suv" width="60px" height="40px"> </li>
+            <li style="padding-right: 120px;"><img src="commercial.png" alt="cv" width="60px" height="40px"> </li>
+            <li style="padding-right: 320px;"><img src="hino trucks.png" alt="ht" width="60px" height="40px"> </li>
+            <li style="padding-right: 80px;"><img src="dream car.png" alt="dr" width="60px" height="40px"></li>
+            <li style="padding-right: 50px;"><img src="toyota sure.png" alt="ts" width="60px" height="40px"></li> <br>
+
+            <li style="padding-right: 50px;">Passenger Cars </li>
+            <li style="padding-right: 50px;">Sports Utility Vehicles </li>
+            <li style="padding-right: 50px;">Commercial Vehicles </li>
+            <li style="padding-right: 300px;">HINO Trucks </li>
+            <li style="padding-right: 50px;">DREAM CAR </li>
+            <li style="padding-right: 50px;">TOYOTA </li>
+
+
+        </div><br>
+
+        <div class="insidetoyotalanka" id="i.t.l">
+            <h1> INSIDE TOYOTA LANKA </h1>
+            <table>
+                <tr>
+                    <td><img src="PASSO.png" alt="passo" width="500px" height="250px">
+                        <br>
+                        <p>We are the exclusive dealer / distributor for the TOYOTA and<br> HINO brands in Sri Lanka and
+                            a
+                            fully owned subsidiary of Toyota<br> Tsusho Corporation (TTC), Japan. Hence, we are a
+                            global<br>
+                            member company of ... </p>
+                        <form action="https://www.toyota.lk/about-us/">
+                            <h4><a class="input" href="https://www.toyota.lk/about-us/ "> Read more..</a> </h4>
+                        </form>
+                    </td>
+                    <td><a target="_blank"
+                            href="https://www.toyota.lk/the-toyota-titans-have-solidified-their-position-as-champions-in-the-cmta-masterminds-2023/">
+                            <img src="Ss (219).png" alt="ss" class="image1" width="250px" height="150px">
+                        </a> <br> <a target="_blank"
+                            href="https://www.toyota.lk/toyota-lanka-honours-authorized-dealers-at-15th-annual-dealer-convention/">
+                            <img src="Ss(220).png" alt="ss2" class="image1" width="250px" height="150px">
+                        </a></td>
+                    <td> <a target="_blank" href="">
+                            <img src="Ss (221).png" alt="ss3" class="image2" width="350px" height=200px">
+                        </a> </td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="toyotarush" id="t.r">
+            <table>
+                <tr>
+                    <td><img src="RUSH.png" alt="rush image" width="750px" height="500px"> </td>
+                    <td>
+                        <h2 style="font-size: xx-large;"> Drive Confident with the <br> Toyota"Rush"</h2>
+                        <P>Toyota Lanka (Private) Limited, the sole authorized distributor<br> for Toyota vehicles in
+                            Sri
+                            Lanka today unveiled the latest<br> Toyota SUV that has been taking the Asian vehicle market
+                            by
+                            <br> storm. The all-new Toyota “Rush” is a plush 7-seat ...
+                        </P>
+
+                        <h4><a class="input" href=""> Read more..</a> </h4>
+                    </td>
+
+                </tr>
+            </table>
+
+        </div>
+    </div>
+    <div class="footer" id="f">
+        <table class="ftable">
+            <tr>
+                <th>VEHICLES
+
+                </th>
+                <th>HEALPFUL LINKS
+
+                </th>
+                <th>ABOUT TOYOTA
+
+                </th>
+                <th style="padding-right: 300px;">TOYOTA LANKA (PRIVATE) LIMITED
+
+                </th>
+            </tr>
+            <tr>
+                <td><a href="https://www.toyota.lk/vehicle/vehicle_types/passenger-cars/">Passenger Cars</a>
+
+                </td>
+                <td><a href="https://www.toyota.lk/contact/branch-network/">Branch Network</a>
+
+                </td>
+                <td><a href="https://www.toyota.lk/about-us/">About Us</a>
+
+                </td>
+                <td style="padding-right: 300px;">
+                    <p>Toyota Plaza </p>
+
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://www.toyota.lk/vehicle/vehicle_types/sports-utility-vehicle/">Sports Utility
+                        Vehicles</a>
+
+                </td>
+                <td><a href="https://www.toyota.lk/careers/">Careers</a>
+
+                </td>
+                <td><a href="https://www.toyota.lk/sustainability/">Sustainability</a>
+
+                </td>
+                <td style="padding-right: 300px;">
+                    <p>337,Negombo Road, </p>
+
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://www.toyota.lk/vehicle/vehicle_types/commercial-vehicle/">Commercial
+                        Vehicles</a>
+
+                </td>
+                <td><a href="https://www.toyota.lk/contact/">Contact</a>
+
+                </td>
+                <td><a href="https://www.toyota.lk/news/">News Room</a>
+
+                </td>
+                <td style="padding-right: 300px;">
+                    <p>Wattala 11300,Sri Lanka </p>
+
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://www.toyota.lk/vehicle/vehicle_types/hino-truck/">HINO Trucks</a>
+
+                </td>
+                <td><a href="https://www.toyota.lk/book-a-service/">Book a Service</a>
+
+                </td>
+                <td><a href="https://www.toyota.lk/careers/">Careers</a>
+
+                </td>
+                <td style="padding-right: 300px;">
+                    <p>General- +9411 2939000-6 </p>
+
+                </td>
+            </tr>
+        </table>
+
+
+    </div>
+
+</body>
+
+</html>
